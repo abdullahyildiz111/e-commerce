@@ -17,7 +17,7 @@ const Navbar = ({ totalItems }) => {
             <Toolbar>
                 <Typography component={Link} to="/" variant="h6" className={classes.title} color="inherit">
                     <img src={logo} alt="Commerse.js" height="25px" className={classes.image} />
-            Commerse.js
+            Commerce.js
           </Typography>
                 <div className={classes.grow} />
                 {location.pathname === "/" && <div className={classes.button}>
